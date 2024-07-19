@@ -1,0 +1,30 @@
+body {
+    background-color: gainsboro;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.class__red {
+    color: red;
+}
+
+.class__blue {
+    color: blue;
+}
+
+button {
+    border-style: hidden;
+}
