@@ -37,6 +37,7 @@ function reiniciar() {
     titulo.className = '';
     paragrafo.className = '';
     input.value = '';
+    input.focus();
     botaoReiniciar.setAttribute('disabled', true);
     input.removeAttribute('disabled');
     botaoDescobrir.removeAttribute('disabled');
